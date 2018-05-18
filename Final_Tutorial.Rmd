@@ -11,7 +11,8 @@ output: html_document
 ##  Introduction
 According to Business Insider, Amazon ranks fifth for companies that computer science students really want to work for after they graduate. Not only this, but they are also gaining plenty of attention over their hq2, Amazon's second headquarters which location will be announced in the very near future. Of the twenty potential locations for hq2, 2 were in Maryland, and another was in Northern Virginia. This close proximity, along with natural prestige, has made  Amazon a very reputable company one that many students, especially those at the University of Maryland, want to work for. Thus, today we will explore Amazon's recent job postings, and see what it is they are looking for in future employees. We will go over how to tidy data, how to analyze data, how to use statistics with data, along with writing code in R and SQL. So, let's get started.
 
-(Optional Read) Business Insider Article "15 places where computer science majors dream of working": highlyhttp://www.businessinsider.com/dream-companies-and-organizations-for-computer-science-students-2017-5#6-blizzard-entertainment-10
+(Optional Read) Business Insider Article "15 places where computer science majors dream of working":
+http://www.businessinsider.com/dream-companies-and-organizations-for-computer-science-students-2017-5#6-blizzard-entertainment-10
 
 
 ## Include Libraries

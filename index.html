@@ -133,7 +133,7 @@ $(document).ready(function () {
 <div id="introduction" class="section level2">
 <h2>Introduction</h2>
 <p>According to Business Insider, Amazon ranks fifth for companies that computer science students really want to work for after they graduate. Not only this, but they are also gaining plenty of attention over their hq2, Amazon’s second headquarters which location will be announced in the very near future. Of the twenty potential locations for hq2, 2 were in Maryland, and another was in Northern Virginia. This close proximity, along with natural prestige, has made Amazon a very reputable company one that many students, especially those at the University of Maryland, want to work for. Thus, today we will explore Amazon’s recent job postings, and see what it is they are looking for in future employees. We will go over how to tidy data, how to analyze data, how to use statistics with data, along with writing code in R and SQL. So, let’s get started.</p>
-<p>(Optional Read) Business Insider Article “15 places where computer science majors dream of working”: highlyhttp://www.businessinsider.com/dream-companies-and-organizations-for-computer-science-students-2017-5#6-blizzard-entertainment-10</p>
+<p>(Optional Read) Business Insider Article “15 places where computer science majors dream of working”: <a href="http://www.businessinsider.com/dream-companies-and-organizations-for-computer-science-students-2017-5#6-blizzard-entertainment-10" class="uri">http://www.businessinsider.com/dream-companies-and-organizations-for-computer-science-students-2017-5#6-blizzard-entertainment-10</a></p>
 </div>
 <div id="include-libraries" class="section level2">
 <h2>Include Libraries</h2>
@@ -356,16 +356,16 @@ amazon_df %&gt;% sample_n(50)</code></pre>
 <pre><code>## # A tibble: 50 x 25
 ##    Position   Location Date                Country State City  Grad_School
 ##    &lt;chr&gt;      &lt;chr&gt;    &lt;dttm&gt;              &lt;chr&gt;   &lt;chr&gt; &lt;chr&gt;       &lt;dbl&gt;
-##  1 Software ~ CA, ON,~ 2017-10-13 00:00:00 Canada  ON    &quot; To~        0   
-##  2 Software ~ US, NY,~ 2017-10-04 00:00:00 United~ NY    &quot; Ne~        1.00
-##  3 Software ~ US, NJ,~ 2018-02-02 00:00:00 United~ NJ    &quot; Ne~        0   
-##  4 Senior Ma~ CA, BC,~ 2017-01-18 00:00:00 Canada  BC    &quot; Va~        1.00
-##  5 Sr. Softw~ US, WA,~ 2017-12-20 00:00:00 United~ WA    &quot; Se~        1.00
-##  6 Software ~ US, WA,~ 2018-01-05 00:00:00 United~ WA    &quot; Se~        0   
-##  7 Software ~ US, WA,~ 2017-10-17 00:00:00 United~ WA    &quot; Se~        0   
-##  8 SDE - Ale~ US, WA,~ 2018-01-03 00:00:00 United~ WA    &quot; Se~        0   
-##  9 Senior So~ US, WA,~ 2018-02-04 00:00:00 United~ WA    &quot; Se~        1.00
-## 10 Playback ~ US, WA,~ 2017-11-29 00:00:00 United~ WA    &quot; Se~        0   
+##  1 Web Devel~ US, WA,~ 2018-02-14 00:00:00 United~ WA    &quot; Se~        0   
+##  2 Software ~ US, WA,~ 2017-07-27 00:00:00 United~ WA    &quot; Se~        0   
+##  3 Software ~ US, WA,~ 2017-12-13 00:00:00 United~ WA    &quot; Se~        0   
+##  4 Software ~ US, WA,~ 2017-12-13 00:00:00 United~ WA    &quot; Se~        0   
+##  5 Sr. Softw~ US, WA,~ 2016-06-29 00:00:00 United~ WA    &quot; Se~        1.00
+##  6 Sr. Softw~ US, MA,~ 2017-10-24 00:00:00 United~ MA    &quot; Ca~        1.00
+##  7 AMAZON AL~ US, MA,~ 2017-09-14 00:00:00 United~ MA    &quot; Ca~        1.00
+##  8 Software ~ US, WA,~ 2018-01-04 00:00:00 United~ WA    &quot; Be~        1.00
+##  9 Senior So~ US, WA,~ 2017-12-08 00:00:00 United~ WA    &quot; Se~        1.00
+## 10 Software ~ US, WA,~ 2017-11-30 00:00:00 United~ WA    &quot; Se~        1.00
 ## # ... with 40 more rows, and 18 more variables: Job_Type &lt;chr&gt;,
 ## #   Minimum_Experience &lt;dbl&gt;, Java &lt;dbl&gt;, Python &lt;dbl&gt;, R &lt;dbl&gt;,
 ## #   MATLAB &lt;dbl&gt;, `C/C++/C#` &lt;dbl&gt;, PHP &lt;dbl&gt;, SQL &lt;dbl&gt;,
